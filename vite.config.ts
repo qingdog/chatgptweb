@@ -33,7 +33,7 @@ export default defineConfig((env) => {
     plugins: setupPlugins(viteEnv),
     server: {
       host: '0.0.0.0',
-      port: 1002,
+      port: 5173,
       open: false,
       proxy: {
         '/api': {
@@ -50,5 +50,6 @@ export default defineConfig((env) => {
         ignoreTryCatch: false,
       },
     },
+    base: './', // 设置为相对路径
   }
 })
