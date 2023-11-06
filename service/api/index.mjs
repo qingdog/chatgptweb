@@ -13,3 +13,7 @@ const corsOptions = {
     optionsSuccessStatus: 204 // 对于预检请求，设置为204表示成功
 };
 app.use(cors(corsOptions));
+
+export const config = {
+    supportsResponseStreaming: true,
+}
