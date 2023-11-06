@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig({
   entry: ['src/index.ts'],
-  outDir: 'build',
+  outDir: 'build/api',
   target: 'es2020',
   format: ['esm'],
   splitting: false,
