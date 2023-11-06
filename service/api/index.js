@@ -1,1 +1,1 @@
-import './api/index.mjs';
+import './index.mjs';
